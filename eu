@@ -1,0 +1,10 @@
+import time
+
+tempo = 10
+print ("começar contagem regressiva")
+
+while tempo >=0:
+   tempo = tempo - 1
+   time.sleep (1)
+
+print("Buumm")
